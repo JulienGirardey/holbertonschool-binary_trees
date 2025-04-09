@@ -1,5 +1,12 @@
 #include "binary_trees.h"
 
+/**
+ * is_leaf - found leaf
+ *
+ * @node: node to seek
+ *
+ * Return: 1 if leaf found else 0
+ */
 int is_leaf(const binary_tree_t *node)
 {
 	if (node == NULL)
